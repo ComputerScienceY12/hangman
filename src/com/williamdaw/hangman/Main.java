@@ -56,7 +56,6 @@ public class Main {
             if (occurrences == 0) display_hanging_man_thing(mistakes++ + 1);
             if (mistakes > 6) System.out.println("You lose");
             if (random_word.equals(String.valueOf(display_word))) System.out.println("You win, the word was " + random_word);
-            if (input.equals("MUM")) System.out.println("Your mums kinda leng you know");
             if ((random_word.equals(String.valueOf(display_word)))||(mistakes > 6)) playing = FALSE;
         }
     } 
